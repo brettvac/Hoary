@@ -4,8 +4,13 @@ Hoary Theme Switcher is a Joomla\! module that easily lets you switch between li
 
 ## **Why Use Hoary Theme Switcher**
 
-Switching between light and dark modes using the default back end Joomla\! template is easily done. But finding a simple, lightweight Joomla\! module that does the same thing on the Joomla\! frontend can be difficult.  
-The Hoary Theme Switcher lets your site visitors easily toggle between light and dark mode, just as an administrator would on the back end. The module works cleanly by overriding the template front end CSS with a provided scoped CSS containing dark mode colours.
+Switching between light and dark modes using the default back end Joomla\! template is easily done. 
+
+But I couldn't find a simple, lightweight Joomla\! module that does the same thing on the Joomla\! frontend template.
+
+The Hoary Theme Switcher lets your site visitors easily toggle between light and dark mode, just as an administrator would on the back end. 
+
+The module works cleanly by overriding the template front end CSS with a provided scoped CSS containing dark mode colours.
 
 ## **How To Use Hoary Theme Switcher**
 
@@ -29,7 +34,9 @@ The Hoary Theme Switcher module works with Joomla\! versions greater than 4.4 an
 
 ## **FAQ**
 
-**Q: This Joomla\! extension is absolutely fantastic\! Can I send a donation?** **A:** Sure\! Send your cryptonation to the following wallets:  
+**Q: This Joomla\! extension is absolutely fantastic\! Can I send a donation?** 
+
+**A:** Sure\! Send your cryptonation to the following wallets:  
 BTC 1PXWZJcBfehqgV25zWdVDS6RF2yVMxFkZD  
 Eth 0xC9b695D4712645Ba178B4316154621B284e2783D
 
