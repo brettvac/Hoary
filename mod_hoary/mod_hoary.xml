@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>MOD_HOARY</name>
+    <version>1.0</version>
+    <description>MOD_HOARY_DESCRIPTION</description>
+    <author>Brett</author>
+    <creationDate>10/06/2026</creationDate>
+    <copyright>(C) 2026 Brett</copyright>
+    <license>GNU General Public License version 2</license>
+    
+    <scriptfile>script.php</scriptfile>
+    
+    <namespace path="src">Naftee\Module\Hoary</namespace>
+    
+    <files>
+        <folder module="mod_hoary">services</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+    
+    <languages folder="language">
+        <language tag="en-GB">en-GB/mod_hoary.ini</language>
+        <language tag="en-GB">en-GB/mod_hoary.sys.ini</language>
+        <language tag="fr-FR">fr-FR/mod_hoary.ini</language>
+        <language tag="fr-FR">fr-FR/mod_hoary.sys.ini</language>
+    </languages>
+    
+    <media destination="mod_hoary" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+        <filename>joomla.asset.json</filename>
+    </media>
+    
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            <field name="cache_warning_note" type="note" label="MOD_HOARY_CACHE_NOTE_LABEL" description="MOD_HOARY_CACHE_NOTE_DESC"  
+            inlineHelp="true"   class="alert alert-info" />
+                <field name="switcher_label" type="radio" default="0" label="MOD_HOARY_FIELD_DARKMODE_LABEL" description="MOD_HOARY_FIELD_DARKMODE_DESC" class="btn-group">
+                    <option value="0">JYES</option>
+                    <option value="1">JNO</option>
+                </field>
+                <field name="icon_style" type="radio" default="0" label="MOD_HOARY_FIELD_ICON_STYLE_LABEL" description="MOD_HOARY_FIELD_ICON_STYLE_DESC" class="btn-group">
+                    <option value="0">MOD_HOARY_LABEL_ICON_STYLE_EMOJI</option>
+                    <option value="1">MOD_HOARY_LABEL_ICON_STYLE_FA</option>
+                </field>
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="cache" type="list" label="COM_MODULES_FIELD_CACHING_LABEL" default="0" filter="integer" validate="options">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field name="cache_time" type="number" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" default="0" filter="integer" />
+                <field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+            </fieldset>
+        </fields>
+    </config>
+   <changelogurl>https://raw.githubusercontent.com/brettvac/hoary/refs/heads/main/update/changelog.xml</changelogurl>
+
+   <updateservers>
+      <server type="extension" name="Hoary Switcher Updates">https://raw.githubusercontent.com/brettvac/hoary/refs/heads/main/update/updates.xml</server>
+   </updateservers>
+</extension>
