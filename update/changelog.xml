@@ -3,6 +3,28 @@
     <changelog>
         <element>mod_hoary</element>
         <type>module</type>
+        <version>1.1</version>
+
+        <fix>
+            <item>Added dark mode support for Joomla Dialog components, including joomla-dialog-container, dialog surfaces, headers, footers, and form controls.</item>
+            <item>Resolved styling inconsistencies where Joomla Dialog popups continued to display light backgrounds when Hoary dark mode was enabled.</item>
+            <item>Fixed licence inside the Web Asset Manager.</item>
+            <item>Corrected some English and French language strings.</item>
+        </fix>
+
+        <change>
+            <item>Moved dark mode switcher styling into the main Hoary CSS file to improve reliability and ensure proper theme state rendering.</item>
+            <item>Added dedicated dark and light mode styling for the Hoary switcher icon and label using Cassiopeia theme variables.</item>
+        </change>
+
+        <note>
+            <item>Dark mode switcher styles were originally intended to remain separate from the upstream Cassiopeia dark mode stylesheet. Due to CSS specificity and component integration requirements, the styles were incorporated directly into the main stylesheet.</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_hoary</element>
+        <type>module</type>
         <version>1.0</version>
         <addition>
             <item>Initial release.</item>

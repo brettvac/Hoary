@@ -95,7 +95,6 @@ this.updateButtonCallback = this.updateButtonCallback.bind(this);
     const icon = btn.querySelector(".header-item-icon > span");
     const text = btn.querySelector(".header-item-text");
     
-    // Removed inline JS styling; CSS handles all visual changes now.
     if (isDark) {
       if (icon) {
         icon.innerHTML = this.iconDark;
@@ -138,5 +137,5 @@ this.updateButtonCallback = this.updateButtonCallback.bind(this);
   }
 }
 
-// Instantiate the class immediately to replace the IIFE pattern
+// Instantiate the class immediately
 const hoarySwitcherInstance = new HoaryThemeSwitcher();

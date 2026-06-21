@@ -43,7 +43,7 @@ html[data-hoary-theme="dark"] body .h3,
 html[data-hoary-theme="dark"] body .h4,
 html[data-hoary-theme="dark"] body .h5,
 html[data-hoary-theme="dark"] body .h6 {
-    color: #fff;
+    color: #fff !important;
 }
 html[data-hoary-theme="dark"] .module h1,
 html[data-hoary-theme="dark"] .module h2,
@@ -679,3 +679,108 @@ html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-t
 html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-tab[view="accordion"] a[role="tab"]:hover::after {
     background-color: var(--template-bg-dark);
 } /*# sourceMappingURL=cassiopeia.css.map */
+
+/* 
+ * Styles for the dark mode switcher 
+ */
+:root {
+    --template-text-light: #fff;
+}
+
+button.header-item-content.hoary-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 0.25rem;
+}
+
+button.header-item-content.hoary-button .header-item-icon span {
+    margin: 3px;
+    font-size: 1.25rem;
+    transition: all .6s ease;
+    border-radius: 4px;
+    background-color: transparent; 
+}
+
+button.header-item-content.hoary-button .header-item-text {
+    background-color: rgb(31, 48, 71);
+    color: var(--template-text-light, #e9ecef);
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all .6s ease;
+}
+
+button.header-item-content.hoary-button .header-item-icon i,
+button.header-item-content.hoary-button .header-item-icon svg {
+    font-size: 1.2rem;
+    background-color: transparent;
+    transition: all .6s ease;
+    display: inline-block;
+    text-align: center;
+    width: 1.25em; 
+}
+
+[data-hoary-theme="dark"] button.header-item-content.hoary-button .header-item-icon i,
+[data-hoary-theme="dark"] button.header-item-content.hoary-button .header-item-icon svg {
+    color: var(--template-text-light, #e9ecef);
+}
+
+[data-hoary-theme="light"] button.header-item-content.hoary-button .header-item-icon i,
+[data-hoary-theme="light"] button.header-item-content.hoary-button .header-item-icon svg {
+    color: var(--warning, #ffdb6d);
+}
+
+[data-hoary-theme="dark"] button.header-item-content.hoary-button .header-item-text {
+    background-color: var(--template-text-light, #e9ecef);
+    color: rgb(31, 48, 71);
+}
+
+/* 
+ * Dark mode for Joomla Dialog 
+ */
+
+html[data-hoary-theme="dark"] joomla-dialog dialog {
+    background-color: #212529;
+    color: #e9ecef;
+    border: 1px solid #495057;
+}
+
+html[data-hoary-theme="dark"] .joomla-dialog-container {
+    background-color: #212529;
+    color: #e9ecef;
+}
+
+html[data-hoary-theme="dark"] .joomla-dialog-header,
+html[data-hoary-theme="dark"] .joomla-dialog-body,
+html[data-hoary-theme="dark"] .joomla-dialog-footer {
+    background-color: #212529;
+    color: #e9ecef;
+}
+
+html[data-hoary-theme="dark"] .joomla-dialog-header,
+html[data-hoary-theme="dark"] .joomla-dialog-footer {
+    border-color: rgba(233, 236, 239, 0.125);
+}
+
+html[data-hoary-theme="dark"] joomla-dialog input,
+html[data-hoary-theme="dark"] joomla-dialog textarea,
+html[data-hoary-theme="dark"] joomla-dialog select {
+    background-color: #1d2124;
+    color: #e9ecef;
+    border-color: #495057;
+}
+
+html[data-hoary-theme="dark"] joomla-dialog label,
+html[data-hoary-theme="dark"] joomla-dialog h3,
+html[data-hoary-theme="dark"] joomla-dialog p,
+html[data-hoary-theme="dark"] joomla-dialog div,
+html[data-hoary-theme="dark"] joomla-dialog section {
+    color: #e9ecef;
+}
+
+html[data-hoary-theme="dark"] joomla-dialog .btn-close {
+    filter: invert(1);
+}
