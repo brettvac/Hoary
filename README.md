@@ -1,6 +1,6 @@
 # **Hoary Theme Switcher**
 
-Hoary Theme Switcher is a Joomla\! module that easily lets you switch between light and dark mode on your front end template.
+Hoary Theme Switcher is a Joomla\! module that easily lets you switch between light and dark mode on your front end (Site) template.
 
 ## **Why Use Hoary Theme Switcher**
 
