@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Hoary Module
- * @version     1.1
+ * @version     1.2
  * @license     GNU General Public License version 2
  */
 

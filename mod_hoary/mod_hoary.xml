@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" client="site" method="upgrade">
     <name>MOD_HOARY</name>
-    <version>1.1</version>
+    <version>1.2</version>
     <description>MOD_HOARY_DESCRIPTION</description>
     <author>Brett</author>
     <creationDate>10/06/2026</creationDate>
@@ -21,6 +21,8 @@
     <languages folder="language">
         <language tag="en-GB">en-GB/mod_hoary.ini</language>
         <language tag="en-GB">en-GB/mod_hoary.sys.ini</language>
+        <language tag="fr-CA">fr-FR/mod_hoary.ini</language>
+        <language tag="fr-CA">fr-FR/mod_hoary.sys.ini</language>
         <language tag="fr-FR">fr-FR/mod_hoary.ini</language>
         <language tag="fr-FR">fr-FR/mod_hoary.sys.ini</language>
     </languages>

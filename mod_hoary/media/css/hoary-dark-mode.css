@@ -1,8 +1,8 @@
 /**
- * @package    Hoary Module
+ * @package    Hoary Theme Switcher Module
  * @copyright  Copyright (c) 2019-2023 Nicholas K. Dionysopoulos
  * @copyright  Copyright (c) 2026 Brett
- * @license    GNU General Public License version 3 or later
+ * @license    GNU General Public License version 2
  *
  * Based on CSS from the DarkMagic project by Nicholas K. Dionysopoulos.
  */
@@ -680,9 +680,7 @@ html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-t
     background-color: var(--template-bg-dark);
 } /*# sourceMappingURL=cassiopeia.css.map */
 
-/* 
- * Styles for the dark mode switcher 
- */
+/* Styles for the dark mode switcher */
 :root {
     --template-text-light: #fff;
 }
@@ -738,10 +736,7 @@ button.header-item-content.hoary-button .header-item-icon svg {
     color: rgb(31, 48, 71);
 }
 
-/* 
- * Dark mode for Joomla Dialog 
- */
-
+/* Dark mode for Joomla Dialog */
 html[data-hoary-theme="dark"] joomla-dialog dialog {
     background-color: #212529;
     color: #e9ecef;
@@ -783,4 +778,43 @@ html[data-hoary-theme="dark"] joomla-dialog section {
 
 html[data-hoary-theme="dark"] joomla-dialog .btn-close {
     filter: invert(1);
+}
+
+/* Article information */
+html[data-hoary-theme="dark"] .article-info.text-muted {
+    color: #adb5bd !important;
+}
+
+/* Slideoutbox module dark mode */
+html[data-hoary-theme="dark"] {
+    --sbox-text-color: #e9ecef;
+    --sbox-background-color: #343a40;
+    --sbox-button-color: #6aa9e8;
+    --sbox-button-hover-color: #8bbafe;
+}
+
+/* Dark mode for Fretboard Diagram content plugin */
+html[data-hoary-theme="dark"] {
+    --fretboarddiagram-scale-background: #343a40;
+    --fretboarddiagram-scale-board-fill: #343a40;
+    --fretboarddiagram-scale-board-stroke: #6c757d;
+    --fretboarddiagram-scale-fret-line: #6c757d;
+    --fretboarddiagram-scale-fret-line-edge: #adb5bd;
+    --fretboarddiagram-scale-string: #ced4da;
+    --fretboarddiagram-scale-string-label: #e9ecef;
+    --fretboarddiagram-scale-fret-label: #e9ecef;
+    --fretboarddiagram-scale-note: #dee2e6;
+    --fretboarddiagram-scale-note-root: #ff7b7b;
+    --fretboarddiagram-scale-finger: #212529;
+
+    --fretboarddiagram-chord-grid: #ced4da;
+    --fretboarddiagram-chord-nut-fill: #ced4da;
+    --fretboarddiagram-chord-nut-stroke: #ced4da;
+    --fretboarddiagram-chord-start-fret: #e9ecef;
+    --fretboarddiagram-chord-muted: #ced4da;
+    --fretboarddiagram-chord-open: #ced4da;
+    --fretboarddiagram-chord-fretted: #ced4da;
+    --fretboarddiagram-chord-finger: #212529;
+    --fretboarddiagram-chord-name: #e9ecef;
+    --fretboarddiagram-chord-barre: #ced4da;
 }

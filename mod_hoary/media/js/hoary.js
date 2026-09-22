@@ -1,3 +1,8 @@
+/*
+* @package    Hoary Theme Switcher Module
+* @version    1.2
+* @license    GNU General Public License version 2
+*/
 class HoaryThemeSwitcher {
   constructor() {
     this.iconDark = "🌙";
@@ -5,39 +10,19 @@ class HoaryThemeSwitcher {
     this.cookieName = "jHoaryMode";
     this.dmsBtns = null;
 
-/* 
- * Bind the init() method to the current object instance.
- * This ensures that "this" inside init() always refers
- * to the class instance, regardless of how the method is called.
- */
+// Bind the init() method to the current object instance. This ensures that "this" inside init() always refers to the class instance, regardless of how the method is called.
 this.init = this.init.bind(this);
 
-/* 
- * Bind the onReady() method to the current object instance.
- * This prevents the execution context from changing when
- * the method is used as an event or callback handler.
- */
+// Bind the onReady() method to the current object instance. This prevents the execution context from changing when the method is used as an event or callback handler.
 this.onReady = this.onReady.bind(this);
 
-/* 
- * Bind the onButtonClick() method to the current object instance.
- * This ensures that properties and methods accessed through "this"
- * remain available when the click event is triggered.
- */
+// Bind the onButtonClick() method to the current object instance. This ensures that properties and methods accessed through "this" remain available when the click event is triggered.
 this.onButtonClick = this.onButtonClick.bind(this);
 
-/* 
- * Bind the bindButtonEvents() method to the current object instance.
- * This guarantees that the correct object context is preserved
- * whenever the method is invoked.
- */
+// Bind the bindButtonEvents() method to the current object instance. This guarantees that the correct object context is preserved whenever the method is invoked.
 this.bindButtonEvents = this.bindButtonEvents.bind(this);
 
-/* 
- * Bind the updateButtonCallback() method to the current object instance.
- * This ensures that "this" continues to reference the class instance
- * when the callback is executed by external code or event handlers.
- */
+// Bind the updateButtonCallback() method to the current object instance. This ensures that "this" continues to reference the class instance when the callback is executed by external code or event handlers.
 this.updateButtonCallback = this.updateButtonCallback.bind(this);
     
     this.init();
