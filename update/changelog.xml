@@ -12,6 +12,7 @@
             <item>Added dedicated dark mode CSS variables for the Nature template header, footer, top sections, bottom sections, and page background.</item>
             <item>Added dark mode CSS variables for the Cassiopeia header gradient.</item>
             <item>Added dark mode styling for general links and link hover and focus states.</item>
+            <item>Added a color to improve dark mode placeholder text visibility for form controls.</item>
         </change>
         <note>
             <item>Template-specific dark mode colors are exposed through CSS variables so Hoary can adapt the Nature and Cassiopeia templates while maintaining a consistent dark mode color palette.</item>

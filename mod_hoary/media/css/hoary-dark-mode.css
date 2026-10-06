@@ -680,6 +680,12 @@ html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-t
     background-color: var(--template-bg-dark);
 } /*# sourceMappingURL=cassiopeia.css.map */
 
+/* Placeholder text (e.g. inside Search) */
+html[data-hoary-theme="dark"] .form-control::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
 /* Header, container header and section variables */
 html[data-hoary-theme="dark"] {
     /* Nature */
