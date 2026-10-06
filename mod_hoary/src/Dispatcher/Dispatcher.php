@@ -1,9 +1,9 @@
 <?php
-/*
-* @package    Hoary Theme Switcher Module
-* @version    1.2
-* @license    GNU General Public License version 2
-*/
+/**
+ * @package    Hoary Theme Switcher Module
+ * @version    1.3
+ * @license    GNU General Public License version 2
+ */
 
 namespace Naftee\Module\Hoary\Site\Dispatcher;
 

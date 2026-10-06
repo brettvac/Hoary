@@ -3,6 +3,29 @@
     <changelog>
         <element>mod_hoary</element>
         <type>module</type>
+        <version>1.3</version>
+        <fix>
+            <item>Corrected inaccurate JSDoc comments in the JavaScript file.</item>
+            <item>Corrected the Dispatcher Doc block.</item>
+            <item>Improved dark mode link visibility by adding dedicated link colors.</item>
+        </fix>
+        <change>
+            <item>Added dedicated dark mode CSS variables for the Nature template header, footer, top sections, bottom sections, and page background.</item>
+            <item>Added dark mode CSS variables for the Cassiopeia header gradient.</item>
+            <item><![CDATA[Added <code>--bodybg</code>, <code>--headerbg</code>, <code>--headercolor</code>, <code>--footerbg</code>, <code>--footercolor</code>, <code>--bottomabg</code>, <code>--bottombbg</code>, <code>--topabg</code>, and <code>--topbbg</code> variables.]]></item>
+            <item><![CDATA[Added <code>--cassiopeia-color-gradient-start</code> and <code>--cassiopeia-color-gradient-end</code> variables for Cassiopeia dark mode.]]></item>
+            <item>Added dark mode styling for general links and link hover and focus states.</item>
+            <item>Extended the existing Hoary dark color palette to provide consistent colors for template headers, sections, footers, and links.</item>
+            <item>Improved visual separation between template sections in dark mode without introducing additional colors outside the existing Hoary palette.</item>
+        </change>
+        <note>
+            <item>Template-specific dark mode colors are exposed through CSS variables so Hoary can adapt the Nature and Cassiopeia templates while maintaining a consistent dark mode color palette.</item>
+            <item><![CDATA[The new CSS variables use the existing Hoary dark mode colors, including <code>#121416</code>, <code>#212529</code>, <code>#343a40</code>, and <code>#e9ecef</code>.]]></item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_hoary</element>
+        <type>module</type>
         <version>1.2</version>
         <fix>
             <item>Added dark mode support for article information metadata, including author, category, publication date, hit count, icons, and links.</item>
