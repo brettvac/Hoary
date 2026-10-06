@@ -13,10 +13,16 @@
             <item>Added dark mode CSS variables for the Cassiopeia header gradient.</item>
             <item>Added dark mode styling for general links and link hover and focus states.</item>
             <item>Added a color to improve dark mode placeholder text visibility for form controls.</item>
+            <item>Added dedicated dark mode CSS variables for Bootstrap accordion colors, borders, buttons, active states, icons, and focus states.</item>
+            <item>Added dedicated dark mode CSS variables for Bootstrap tab navigation colors, borders, links, hover states, active states, and disabled states.</item>
+            <item>Added dark mode styling for the tab navigation container, including its background, border, and shadow.</item>
+            <item>Added a dedicated dark mode <code>--card-color</code> CSS variable to control card text color.</item>
         </change>
         <note>
             <item>Template-specific dark mode colors are exposed through CSS variables so Hoary can adapt the Nature and Cassiopeia templates while maintaining a consistent dark mode color palette.</item>
-            <item><![CDATA[The new CSS variables use the existing Hoary dark mode colors, including <code>#121416</code>, <code>#212529</code>, <code>#343a40</code>, and <code>#e9ecef</code>.]]></item>
+            <item>Bootstrap component-specific dark mode colors are exposed through CSS variables so Hoary can adapt accordions, tab navigation, and cards while maintaining a consistent dark mode color palette.</item>
+            <item><![CDATA[The new CSS variables use the existing Hoary dark mode colors, including <code>#121416</code>, <code>#212529</code>, <code>#343a40</code>, <code>#495057</code>, <code>#6c757d</code>, <code>#8bbafe</code>, <code>#adb5bd</code>, and <code>#e9ecef</code>.]]></item>
+            <item><![CDATA[The Bootstrap card component now exposes a dedicated <code>--card-color</code> variable in dark mode to provide consistent card text coloring.]]></item>
         </note>
     </changelog>
     <changelog>
