@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    Hoary Theme Switcher Module
- * @version    1.3
+ * @version    1.4
  * @license    GNU General Public License version 2
  */
 

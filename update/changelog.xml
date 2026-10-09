@@ -1,76 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs>
-    <changelog>
-        <element>mod_hoary</element>
-        <type>module</type>
-        <version>1.3</version>
-        <fix>
-            <item>Corrected inaccurate JSDoc comments in the JavaScript file.</item>
-            <item>Corrected the Dispatcher documentation block.</item>
-        </fix>
-        <change>
-            <item>Added dedicated dark mode CSS variables for the Nature template header, footer, top sections, bottom sections, and page background.</item>
-            <item>Added dark mode CSS variables for the Cassiopeia header gradient.</item>
-            <item>Added dark mode styling for general links and link hover and focus states.</item>
-            <item>Added a color to improve dark mode placeholder text visibility for form controls.</item>
-            <item>Added dedicated dark mode CSS variables for Bootstrap accordion colors, borders, buttons, active states, icons, and focus states.</item>
-            <item>Added dedicated dark mode CSS variables for Bootstrap tab navigation colors, borders, links, hover states, active states, and disabled states.</item>
-            <item>Added dark mode styling for the tab navigation container, including its background, border, and shadow.</item>
-            <item>Added a dedicated dark mode <code>--card-color</code> CSS variable to control card text color.</item>
-        </change>
-        <note>
-            <item>Template-specific dark mode colors are exposed through CSS variables so Hoary can adapt the Nature and Cassiopeia templates while maintaining a consistent dark mode color palette.</item>
-            <item>Bootstrap component-specific dark mode colors are exposed through CSS variables so Hoary can adapt accordions, tab navigation, and cards while maintaining a consistent dark mode color palette.</item>
-            <item><![CDATA[The new CSS variables use the existing Hoary dark mode colors, including <code>#121416</code>, <code>#212529</code>, <code>#343a40</code>, <code>#495057</code>, <code>#6c757d</code>, <code>#8bbafe</code>, <code>#adb5bd</code>, and <code>#e9ecef</code>.]]></item>
-            <item><![CDATA[The Bootstrap card component now exposes a dedicated <code>--card-color</code> variable in dark mode to provide consistent card text coloring.]]></item>
-        </note>
-    </changelog>
-    <changelog>
-        <element>mod_hoary</element>
-        <type>module</type>
-        <version>1.2</version>
-        <fix>
-            <item>Improved French language strings with corrected grammar and spelling.</item>
-            <item>Corrected the license information in the CSS file.</item>
-        </fix>
-        <change>
-            <item>Added dedicated CSS variables for custom modules to allow their colors to be overridden cleanly by Hoary dark mode.</item>
-            <item>Added dark mode color variables for the Fretboard Diagram module.</item>
-            <item>Added dark mode color variables for the Slideoutbox module.</item>
-            <item>Added FR-CA language strings.</item>
-            <item>Improved the clarity and consistency of code comments throughout the module.</item>
-            <item>Added a documentation block to the JavaScript file.</item>
-            <item>Clarified the English module description to specify that Hoary is intended for front-end/site templates.</item>
-            <item>Improved the color and contrast of article information in dark mode.</item>
-        </change>
-        <note>
-            <item>Custom module colors are exposed through CSS variables so Hoary can provide dark mode overrides without requiring component-specific styling rules for every custom module.</item>
-        </note>
-    </changelog>
-    <changelog>
-        <element>mod_hoary</element>
-        <type>module</type>
-        <version>1.1</version>
-        <fix>
-            <item>Added dark mode support for Joomla Dialog components, including joomla-dialog-container, dialog surfaces, headers, footers, and form controls.</item>
-            <item>Resolved styling inconsistencies where Joomla Dialog popups continued to display light backgrounds when Hoary dark mode was enabled.</item>
-            <item>Fixed licence inside the Web Asset Manager.</item>
-            <item>Corrected some English and French language strings.</item>
-        </fix>
-        <change>
-            <item>Moved dark mode switcher styling into the main Hoary CSS file to improve reliability and ensure proper theme state rendering.</item>
-            <item>Added dedicated dark and light mode styling for the Hoary switcher icon and label using Cassiopeia theme variables.</item>
-        </change>
-        <note>
-            <item>Dark mode switcher styles were originally intended to remain separate from the upstream Cassiopeia dark mode stylesheet. Due to CSS specificity and component integration requirements, the styles were incorporated directly into the main stylesheet.</item>
-        </note>
-    </changelog>
-    <changelog>
-        <element>mod_hoary</element>
-        <type>module</type>
-        <version>1.0</version>
-        <addition>
-            <item>Initial release.</item>
-        </addition>
-    </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
+      <version>1.4</version>
+      <change>
+          <item>Added dedicated dark mode CSS variables for Bootstrap breadcrumb divider colors and other breadcrumb color properties.</item>
+          <item>Added a dedicated dark mode CSS variable for the Slide Out Box close button color.</item>
+      </change>
+      <note>
+          <item>Breadcrumb colors are exposed through CSS variables so Hoary can maintain consistent breadcrumb styling in dark mode.</item>
+          <item>The Slide Out Box close button color is exposed through a dedicated CSS variable so its appearance can be adjusted for dark mode.</item>
+      </note>
+  </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
+      <version>1.3</version>
+      <fix>
+          <item>Corrected inaccurate JSDoc comments in the JavaScript file.</item>
+          <item>Corrected the Dispatcher documentation block.</item>
+      </fix>
+      <change>
+          <item>Added dedicated dark mode CSS variables for the Nature template header, footer, top sections, bottom sections, and page background.</item>
+          <item>Added dark mode CSS variables for the Cassiopeia header gradient.</item>
+          <item>Added dark mode styling for general links and link hover and focus states.</item>
+          <item>Added a color to improve dark mode placeholder text visibility for form controls.</item>
+          <item>Added dedicated dark mode CSS variables for Bootstrap accordion colors, borders, buttons, active states, icons, and focus states.</item>
+          <item>Added dedicated dark mode CSS variables for Bootstrap tab navigation colors, borders, links, hover states, active states, and disabled states.</item>
+          <item>Added dark mode styling for the tab navigation container, including its background, border, and shadow.</item>
+          <item>Added a dedicated dark mode <code>--card-color</code> CSS variable to control card text color.</item>
+      </change>
+      <note>
+          <item>Template-specific dark mode colors are exposed through CSS variables so Hoary can adapt the Nature and Cassiopeia templates while maintaining a consistent dark mode color palette.</item>
+          <item>Bootstrap component-specific dark mode colors are exposed through CSS variables so Hoary can adapt accordions, tab navigation, and cards while maintaining a consistent dark mode color palette.</item>
+          <item><![CDATA[The new CSS variables use the existing Hoary dark mode colors, including <code>#121416</code>, <code>#212529</code>, <code>#343a40</code>, <code>#495057</code>, <code>#6c757d</code>, <code>#8bbafe</code>, <code>#adb5bd</code>, and <code>#e9ecef</code>.]]></item>
+          <item><![CDATA[The Bootstrap card component now exposes a dedicated <code>--card-color</code> variable in dark mode to provide consistent card text coloring.]]></item>
+      </note>
+  </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
+      <version>1.2</version>
+      <fix>
+          <item>Improved French language strings with corrected grammar and spelling.</item>
+          <item>Corrected the license information in the CSS file.</item>
+      </fix>
+      <change>
+          <item>Added dedicated CSS variables for custom modules to allow their colors to be overridden cleanly by Hoary dark mode.</item>
+          <item>Added dark mode color variables for the Fretboard Diagram module.</item>
+          <item>Added dark mode color variables for the Slideoutbox module.</item>
+          <item>Added FR-CA language strings.</item>
+          <item>Improved the clarity and consistency of code comments throughout the module.</item>
+          <item>Added a documentation block to the JavaScript file.</item>
+          <item>Clarified the English module description to specify that Hoary is intended for front-end/site templates.</item>
+          <item>Improved the color and contrast of article information in dark mode.</item>
+      </change>
+      <note>
+          <item>Custom module colors are exposed through CSS variables so Hoary can provide dark mode overrides without requiring component-specific styling rules for every custom module.</item>
+      </note>
+  </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
+      <version>1.1</version>
+      <fix>
+          <item>Added dark mode support for Joomla Dialog components, including joomla-dialog-container, dialog surfaces, headers, footers, and form controls.</item>
+          <item>Resolved styling inconsistencies where Joomla Dialog popups continued to display light backgrounds when Hoary dark mode was enabled.</item>
+          <item>Fixed licence inside the Web Asset Manager.</item>
+          <item>Corrected some English and French language strings.</item>
+      </fix>
+      <change>
+          <item>Moved dark mode switcher styling into the main Hoary CSS file to improve reliability and ensure proper theme state rendering.</item>
+          <item>Added dedicated dark and light mode styling for the Hoary switcher icon and label using Cassiopeia theme variables.</item>
+      </change>
+      <note>
+          <item>Dark mode switcher styles were originally intended to remain separate from the upstream Cassiopeia dark mode stylesheet. Due to CSS specificity and component integration requirements, the styles were incorporated directly into the main stylesheet.</item>
+      </note>
+  </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
+      <version>1.0</version>
+      <addition>
+          <item>Initial release.</item>
+      </addition>
+  </changelog>
 </changelogs>

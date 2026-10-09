@@ -759,6 +759,13 @@ html[data-hoary-theme="dark"] {
     --cassiopeia-color-gradient-end: #343a40;
 }
 
+/* Breadcrumbs in Cassiopeia */
+html[data-hoary-theme="dark"] .breadcrumb {
+    --breadcrumb-bg: #343a40;
+    --breadcrumb-divider-color: #adb5bd;
+    --breadcrumb-item-active-color: #e9ecef;
+}
+
 /* Accordion colors */
 html[data-hoary-theme="dark"] .accordion {
     --accordion-color: #e9ecef;
@@ -886,6 +893,7 @@ html[data-hoary-theme="dark"] {
     --sbox-background-color: #343a40;
     --sbox-button-color: #6aa9e8;
     --sbox-button-hover-color: #8bbafe;
+    --sbox-close-color: #e9ecef;
 }
 
 /* Dark mode for Fretboard Diagram content plugin */
