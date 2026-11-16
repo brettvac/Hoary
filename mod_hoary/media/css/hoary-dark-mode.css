@@ -679,7 +679,7 @@ html[data-hoary-theme="dark"] joomla-tab[view="accordion"] joomla-tab[view="acco
 html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-tab[view="accordion"] a[role="tab"][active]::after,
 html[data-hoary-theme="dark"] joomla-tab[view="tabs"][view="accordion"] joomla-tab[view="accordion"] a[role="tab"]:hover::after {
     background-color: var(--template-bg-dark);
-} /*# sourceMappingURL=cassiopeia.css.map */
+}
 
 /* Styles for the dark mode switcher */
 :root {

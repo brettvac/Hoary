@@ -1,7 +1,8 @@
 <?php
 /**
- * @package    Hoary Theme Switcher Module
- * @version    1.4
+ * @package    Joomla.Site
+ * @subpackage mod_hoary
+ * @version    1.5
  * @license    GNU General Public License version 2
  */
 

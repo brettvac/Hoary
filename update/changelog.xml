@@ -3,6 +3,17 @@
   <changelog>
       <element>mod_hoary</element>
       <type>module</type>
+      <version>1.5</version>
+      <change>
+          <item>Removed the unnecessary CSS source map reference from the Cassiopeia stylesheet to eliminate requests for a missing source map file.</item>
+          <item>Updated the minimum supported Joomla version to 5.0.0.</item>
+          <item>Updated the minimum required PHP version to 8.1.0.</item>
+          <item>Updated the PHP file DocBlock to reflect the current module version.</item>
+      </change>
+  </changelog>
+  <changelog>
+      <element>mod_hoary</element>
+      <type>module</type>
       <version>1.4</version>
       <change>
           <item>Added dedicated dark mode CSS variables for Bootstrap breadcrumb divider colors and other breadcrumb color properties.</item>

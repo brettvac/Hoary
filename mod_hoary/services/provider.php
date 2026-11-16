@@ -1,7 +1,8 @@
 <?php
 /**
- * @package    Hoary Module
- * @copyright  (C) 2026 Brett
+ * @package    Joomla.Site
+ * @subpackage mod_hoary
+ * @version    1.5
  * @license    GNU General Public License version 2
  */
 
